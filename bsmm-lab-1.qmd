@@ -2,7 +2,7 @@
 title: "BSMM-lab-1"
 subtitle: "BSMM 8740 Fall 2023"
 author: "Maliha Qayyum"
-date: "September 11, 2023"
+date: "September 18, 2023"
 format: html
 editor: visual
 self-contained: true
@@ -38,6 +38,10 @@ library(tidyverse)
 ```{r}
 library(Lahman)
 dim(Teams)
+```
+
+```{r}
+install.packages("Lahman")
 ```
 
 ### Exercise 2
