@@ -1,81 +1,27 @@
 ---
-title: "BSMM-lab-1"
-subtitle: "BSMM 8740 Fall 2023"
+title: "Lab 1"
 author: "Maliha Qayyum"
-date: "September 18, 2023"
 format: html
 editor: visual
-self-contained: true
 ---
 
-## Setup
+## Quarto
 
-Load packages and data:
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
-```{r load-pkg-data}
-#| message: false
-library(Lahman)
-```
+## Running Code
 
-## Exercises
-
-### Exercise 1
-
-```{r glimpse-data}
-dplyr::glimpse(Teams)
-```
-
-The `Teams` dataset has \_3015\_\_ observations and \_48\_\_ variables.
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
 
 ```{r}
-install.packages("tidyverse")
+1 + 1
 ```
+
+You can add options to executable code like this
 
 ```{r}
-library(tidyverse)
+#| echo: false
+2 * 2
 ```
 
-```{r}
-library(Lahman)
-dim(Teams)
-```
-
-```{r}
-install.packages("Lahman")
-```
-
-### Exercise 2
-
-...
-
-### Exercise 3
-
-...
-
-### Exercise 4
-
-...
-
-### Exercise 5
-
-...
-
-### Exercise 6
-
-...
-
-### Exercise 7
-
-...
-
-### Exercise 8
-
-...
-
-### Exercise 9
-
-...
-
-### Exercise 10
-
-...
+The `echo: false` option disables the printing of code (only output is displayed).
